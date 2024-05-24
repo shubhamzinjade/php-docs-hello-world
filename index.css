@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container .navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  align-items: center;
+  padding: 0px 33px;
+  box-shadow: 0px 0px 41px -11px #3e494b;
+}
+
+.container .logo span {
+  color: #c50000;
+  font-size: 38px;
+  font-weight: 900;
+}
+
+.container .navbar .navigationTab ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+.container .navbar .navigationTab ul li {
+  padding: 7px 11px;
+}
+.container .navbar .navigationTab ul li:hover {
+  border-radius: 12px;
+  border-bottom: 1px solid black;
+  color: #5872a3;
+}
+.container .navbar .navigationTab ul li a:hover {
+  color: #284171;
+}
+.container .navbar .navigationTab ul li a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: sans-serif;
+  border-bottom: 1px solid transparent;
+  color: #284171;
+}
+.container .userData span {
+  font-size: 17px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.container .Data {
+  height: 90vh;
+  display: flex;
+}
+
+.container .Data .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 39px;
+}
+
+.container .Data .content .instituteLogo {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .Data .content .instituteLogo p {
+  color: #ed3237;
+  font-size: 25px;
+  font-weight: 700;
+  user-select: none;
+}
+.container .Data .content .instituteLogo img {
+  height: 28vh;
+  margin-bottom: 12px;
+}
+.container .Data .content .instituteData {
+  width: 43%;
+}
+/* .container .Data .content .instituteData .contactButton button {
+  border-radius: 30px;
+  padding: 15px;
+  font-size: 21px;
+  border: none;
+  margin-top: 17px;
+  font-family: inherit;
+  font-weight: 700;
+  cursor: pointer;
+} */
+.container .Data .content .instituteData h1 {
+  margin-bottom: 16px;
+  font-weight: bold;
+  font-family: system-ui;
+  font-size: 38px;
+}
+.container .Data .content .instituteData p {
+  font-size: 17px;
+  font-family: math;
+}
+.container .Data .content .instituteData .contactButton {
+  margin-top: 20px;
+}
+.container .Data .content .instituteData .contactButton a {
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #ec3237;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 60px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 13px;
+}
